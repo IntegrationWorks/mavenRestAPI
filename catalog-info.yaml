@@ -1,0 +1,12 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "mavenRestAPI"
+  description: "mavenRestAPI"
+  annotations:
+    github.com/project-slug: IntegrationWorks/mavenRestAPI
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "IntegrationWorks"
